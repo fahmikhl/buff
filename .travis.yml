@@ -25,8 +25,7 @@ deploy:
   skip_cleanup: true
   overwrite: true
   provider: releases
-  api_key:
-    secure: FeWT9wSApxqreWy6DyZU+QPU58sQw2oBFnz1DBmwRYTGeWYsc734nPiWD69zEDU3Mm6RZqPpGWK+vk9YwbCpeOJgsr75T+Qv64Acnv01CTaSY1CoXJPMvOgP2vrrOuteAb611OgpkcqFwFrmfCnqkRAhC/nnJQU9gGrCzmu5xHxm0uEcP/CW8OM0ewG7Qb1+JojxrRq0WX5mYY3B6uUxdBizMw9GQAAwAZfGAECwzYm97tI7ayzYHXty8YG54KlRWYcMJ1YF4ivVvPDVCZ3tV6wZNSRt/u4WnnA/6P5zuCIYIUlxWHF/8+loT8QX9abv+OwanNNOkMaXUCzHw26v4lbPiYFK2xIe9T8CUkahk6TuSNdI3VprX/JfF/gMM0PwR1uae7X3YCeC/7J8mkaKa+m7T8hE/ROJ2qIACapf3lStm9hXco4aBZb7hKyZGNYAwDN2r5zs9dATV1dRLs5doIoHICcTkninhooAYeZyVrBr0NVjerTIola5TvSqKFPuSAhQvrsM76PYm6ITLTsDWS+9z8OWQVgvY4ifhA+GSOKukgO59nu/3vlPgKM/C+2MssoLfkNdK4k/EMsToVDNW7wtTQgis+Ly5dabTLOeqmXE4z+EUMLmW4ol1cyeG5MH/qLbWGjT5IwuXpgCtTvFA/1v2PKgup/CC4MmSnhrup0=
+  api_key: $GH_TOKEN
   file: ".pio/build/nodemcuv2/firmware.bin"
   on:
     repo: fahmikhl/buff
