@@ -14,8 +14,7 @@ before_install:
 install:
 - pip install -U platformio
 - platformio update 
-- platformio lib install 415
-- platformio lib install 64@5.13.4
+- platformio lib install 567
 - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%y%m%d%H%M%S')}
 
 script:
