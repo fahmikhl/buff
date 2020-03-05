@@ -29,3 +29,4 @@ deploy:
   file: ".pio/build/nodemcuv2/firmware.bin"
   on:
     repo: fahmikhl/buff
+    all_branches: true
